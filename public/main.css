@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #2A4C52;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.app {
+	color: #F9F8F8;
+}
+
+.heading-container {
+	border-style: solid;
+	color: #F9F8F8;
+	border-color: #2A4C52;
+	background-color: #32B5B1;
+	font-size: 3rem;
+}
+.agenda-container {
+	color: #F9F8F8;
+	background-color: #87D6CF;
+	white-space: nowrap;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 4;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #2A4C52;
+}
+.anime0 {
+	background-color: #3CBBB1;
+}
+.anime1 {
+	background-color: #5AC6BD;
+}
+.anime2 {
+	background-color: #66CAC2;
+}
+
+.generation-button {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #32B5B1;
+  border: none;
+	border-radius: 0.5rem;
+  color: #F9F8F8;
+	position: absolute;
+  left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  padding: 2rem 2.5rem;
+  text-align: center;
+  font-size: 3.4rem;
+}
