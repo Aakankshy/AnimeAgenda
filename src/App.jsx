@@ -51,7 +51,7 @@ class App extends React.Component {
 					<div className='heading-container'>Today's Agenda</div>
 						{
 							this.state.agendaToday.map(
-								anime => <div className={`anime${this.state.agendaToday.indexOf(anime)}`}>
+								(anime, index) => <div className={`anime${index}`}>
 									<a href={anime.url} target="_blank">
 										{`${anime.title} - ${anime.score ? anime.score : "Not yet rated"}`}
 									</a>
